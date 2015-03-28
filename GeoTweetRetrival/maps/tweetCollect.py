@@ -6,7 +6,7 @@ import time, tweepy, sys, math
 consumer_key = ''
 consumer_secret = ''
 access_token = ''
-access_token_secret = '3R1mtgGpMpg13QxVuFfIxoPgpSkVODtVjTQLWSVYt82IL'
+access_token_secret = ''
 
 # OAuth process, using the keys and tokens
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
