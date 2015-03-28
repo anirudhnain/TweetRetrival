@@ -7,7 +7,7 @@ class SListener(tweepy.StreamListener):
     def __init__(self, api=None):
         self.api = api or API()
         self.n = 0
-        self.m = 1
+        self.m = 100
 
     def on_status(self, status):
         if status.coordinates:
