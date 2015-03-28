@@ -3,10 +3,10 @@ from BoundingBox import BoundingBox
 import time, tweepy, sys, math
 
 #Consumer Keys and access tokens, used for OAuth
-consumer_key = 'WDpZcbcXK6C4RASBaWPn2EsRM'
-consumer_secret = 'p2PIw953cXOhfhjeADZUdLeaPnqwlb0DoiEv5ylmSvUqv67lWr'
-access_token = '2911455882-iJf4Hs056YOAQc2P5u8aE3bAySFFW67n5SXKb6d'
-access_token_secret = '3R1mtgGpMpg13QxVuFfIxoPgpSkVODtVjTQLWSVYt82IL'
+consumer_key = ""
+consumer_secret = ""
+access_token = ""
+access_token_secret = ""
 
 # OAuth process, using the keys and tokens
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
